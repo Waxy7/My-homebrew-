@@ -1,4 +1,30 @@
 [
+
+	{
+	"_meta": {
+		"sources": [
+			{
+				"json": "ERTW",
+				"abbreviation": "ERTW",
+				"full": "Everyday Rituals for Travelling Wizards",
+				"authors": [
+					"A,D, Feltham"
+				],
+				"convertedBy": [
+					"Eberron94"
+				],
+				"version": "2.0",
+				"url": "https://www.dmsguild.com/product/184141/Everyday-Rituals-for-Travelling-Wizards",
+				"targetSchema": "1.0.0"
+			}
+		],
+		"dateAdded": 1542063914,
+		"dateLastModified": 1729630006,
+		"_dateLastModifiedHash": "138a7a83bd",
+		"edition": "classic"
+	},
+	"spell": [
+	
   {
     "name": "Frostfire Bolt",
     "level": 1,

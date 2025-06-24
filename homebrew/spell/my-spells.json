@@ -1,26 +1,53 @@
-[
-  {
-    "name": "Mystic Cooking Fire",
-    "level": 1,
-    "school": "C",
-    "source": "ERTW",
-    "page": 4,
-    "meta": { "ritual": true },
-    "time": [{ "number": 1, "unit": "minute" }],
-    "range": {
-      "type": "point",
-      "distance": { "type": "feet", "amount": 10 }
-    },
-    "components": { "v": true, "s": true, "m": "kindling" },
-    "duration": [{
-      "type": "timed",
-      "duration": { "type": "hour", "amount": 10, "upTo": true }
-    }],
-    "classes": {
-      "fromClassList": [{ "name": "Wizard", "source": "PHB" }]
-    },
-    "entries": [
-      "You perform a quick ritual, gathering together some kindling and muttering some magic words..."
+{
+    "my-spells": [
+        {
+            "name": "Mystic Cooking Fire",
+            "level": 1,
+            "school": "C",
+            "source": "ERTW",
+            "page": 4,
+            "meta": {
+                "ritual": true
+            },
+            "time": [
+                {
+                    "number": 1,
+                    "unit": "minute"
+                }
+            ],
+            "range": {
+                "type": "point",
+                "distance": {
+                    "type": "feet",
+                    "amount": 10
+                }
+            },
+            "components": {
+                "v": true,
+                "s": true,
+                "m": "kindling"
+            },
+            "duration": [
+                {
+                    "type": "timed",
+                    "duration": {
+                        "type": "hour",
+                        "amount": 10,
+                        "upTo": true
+                    }
+                }
+            ],
+            "classes": {
+                "fromClassList": [
+                    {
+                        "name": "Wizard",
+                        "source": "PHB"
+                    }
+                ]
+            },
+            "entries": [
+                "You perform a quick ritual, gathering together some kindling and muttering some magic words. A few moments later the kindling catches fire and continues to burn for up to 10 hours. This spell affects an area of up to 3 cubic feet. The kindling used in this spell does not need to be dry, and is not consumed by the casting of the spell or by the fire, enabling it to be reused for future castings."
+            ]
+        }
     ]
-  }
-]
+}

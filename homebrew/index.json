@@ -13,5 +13,8 @@
   ],
   "race": [
     "race/my-races.json"
+      ],
+  "subrace": [
+    "subrace/my-subraces.json"
   ] 
 }

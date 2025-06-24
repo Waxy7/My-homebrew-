@@ -8,6 +8,7 @@
     "components": {"v": true, "s": true},
     "duration": [{"type": "instant"}],
     "entries": ["You hurl a bolt of frostfire that deals 2d8 cold and fire damage."],
-    "classes": {"fromClassList": [{"name": "Wizard", "source": "PHB"}]}
+    "classes": {"fromClassList": [{"name": "Wizard", "source": "PHB"}]},
+    "source": "HB"
   }
 ]

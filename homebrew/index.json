@@ -9,7 +9,7 @@
     "monster/my-monsters.json"
   ],
   "subclass": [
-    "subclass/my-subclass.json"
+    "subclass/my-subclasses.json"
   ],
   "race": [
     "race/my-races.json"

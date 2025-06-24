@@ -1,3 +1,14 @@
 {
-  "spell": ["spell/my-spells.json"]
+  "spell": [
+    "spell/my-spells.json"
+  ],
+  "class": [
+    "class/my-class.json"
+  ],
+  "monster": [
+    "monster/my-monsters.json"
+  ]
+  "subclass": [
+    "subclass/my-subclass.json"
+  ] 
 }

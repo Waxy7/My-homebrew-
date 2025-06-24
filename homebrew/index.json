@@ -10,5 +10,11 @@
   ],
   "subclass": [
     "subclass/my-subclass.json"
+  ],
+  "race": [
+    "race/my-races.json"
+  ],
+  "subrace": [
+    "subrace/my-subraces.json"
   ] 
 }

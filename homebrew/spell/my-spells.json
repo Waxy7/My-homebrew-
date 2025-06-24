@@ -1,29 +1,4 @@
 [
-
-	{
-	"_meta": {
-		"sources": [
-			{
-				"json": "ERTW",
-				"abbreviation": "ERTW",
-				"full": "Everyday Rituals for Travelling Wizards",
-				"authors": [
-					"A,D, Feltham"
-				],
-				"convertedBy": [
-					"Eberron94"
-				],
-				"version": "2.0",
-				"url": "https://www.dmsguild.com/product/184141/Everyday-Rituals-for-Travelling-Wizards",
-				"targetSchema": "1.0.0"
-			}
-		],
-		"dateAdded": 1542063914,
-		"dateLastModified": 1729630006,
-		"_dateLastModifiedHash": "138a7a83bd",
-		"edition": "classic"
-	},
-	"spell": [
 	
   {
     "name": "Frostfire Bolt",
@@ -36,48 +11,6 @@
     "entries": ["You hurl a bolt of frostfire that deals 2d8 cold and fire damage."],
     "classes": {"fromClassList": [{"name": "Wizard", "source": "PHB"}]},
     "source": "HB"
-  },
-  {
-			"name": "Earth to Sausages",
-			"level": 1,
-			"school": "T",
-			"source": "ERTW",
-			"page": 4,
-			"meta": {
-				"ritual": true
-			},
-			"time": [
-				{
-					"number": 1,
-					"unit": "minute"
-				}
-			],
-			"range": {
-				"type": "point",
-				"distance": {
-					"type": "touch"
-				}
-			},
-			"components": {
-				"v": true,
-				"s": true,
-				"m": "earth"
-			},
-			"duration": [
-				{
-					"type": "permanent"
-				}
-			],
-			"classes": {
-				"fromClassList": [
-					{
-						"name": "Wizard",
-						"source": "PHB"
-					}
-				]
-			},
-			"entries": [
-				"You draw together a handful of ordinary dirt and perform the gestures and words of this ritual. The dirt permanently transmutes into edible, if slightly suspicious-tasting sausages. The sausages still need to be cooked as normal sausages would. The sausages provide the equivalent of one rations worth of nutrition."
-			]
-		}
+  }
+
 ]

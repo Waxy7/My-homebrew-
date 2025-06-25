@@ -32,11 +32,8 @@
                 {
                     "name": "Wizard",
                     "source": "PHB"
-                },
-                {
-                    "name": "Inscriptor",
-                    "source": "nat19"
                 }
+                
             ]
         }
     }

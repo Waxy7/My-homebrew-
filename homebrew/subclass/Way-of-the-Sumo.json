@@ -1,110 +1,68 @@
-{
-    "subclass": [
+[
+  {
+    "name": "Way of the Sumo",
+    "shortName": "WOTS",
+    "source": "HB",
+    "class": {
+      "name": "Monk",
+      "source": "PHB"
+    },
+    "features": {
+      "3": [
         {
-            "name": "Way of the Sumo",
-            "source": "HB",
-            "className": "Monk",
-            "classSource": "PHB",
-            "shortName": "WOTS",
-            "subclassFeatures": [
-                "Unrelenting Force|Monk||WOTS|HB|3",
-                "Bonus Proficencies|Monk||WOTS|HB|3",
-                "Imporved Shove|Monk||WOTS|HB|6",
-                "Sumo Stop|Monk||WOTS|HB|11",
-                "Yokozuna|Monk||WOTS|HB|17"
-            ]
+          "name": "Unrelenting Force",
+          "entries": [
+            "When you choose this tradition at 3rd level, you improve in your ability to manipulate your opponent in battle. You gain the ability to use the shove attack or the grapple attack as a bonus action by spending a point of Ki. Maintaining control of your opponent will give you the upper hand in battle, giving you and your allies a chance to inflict as much harm as possible."
+          ]
+        },
+        {
+          "name": "Bonus Proficiencies",
+          "entries": [
+            "At 3rd level, you gain proficiency in your Strength ({@skill Athletics}) skill if you do not already have it.",
+            "You also gain proficiency in {@tool cook's utensils} if you don't already have it."
+          ]
         }
-    ],
-    "subclassFeature": [
+      ],
+      "6": [
         {
-            "name": "Unrelenting Force",
-            "source": "HB",
-            "className": "Monk",
-            "classSource": "PHB",
-            "page": 1,
-            "subclassShortName": "WOTS",
-            "subclassSource": "HB",
-            "level": 3,
-            "header": 2,
-            "entries": [
-                "When you Choose this tradition at 3rd level, you improve in your ability to manipulate your opponent in battle. You gain the ability to use the shove attack or the grapple attack as a bonus action by spending a point of Ki. Maintaining control of your opponent will give you the upper hand in battle, giving you and your allies a chance to inflict as much harm as possible."
-            ]
-        },
-        {
-            "name": "Bonus Proficiencies",
-            "source": "HB",
-            "className": "Monk",
-            "classSource": "PHB",
-            "page": 1,
-            "subclassShortName": "WOTS",
-            "subclassSource": "HB",
-            "level": 3,
-            "header": 2,
-            "entries": [
-                "At 3rd level, you gain Proficiency in your Strength ({@skill Athletics}) skill if you do not already have it. Your study into the art of Sumo has given you techniques into shoving your opponents. ",
-                "You also gain proficiency in {@tool cook's utensils} if you don't already have it."
-               
-
-                
-            ]
-        },
-     
-        {
-            "name": "Imporved Shove",
-            "source": "HB",
-            "className": "Monk",
-            "classSource": "PHB",
-            "page": 1,
-            "subclassShortName": "WOTS",
-            "subclassSource": "HB",
-            "level": 6,
-            "header": 2,
-            "consumes": {
-                "name": "Ki",
-                "amount": 1
-            },
-            "entries": [
-                "Starting at 6th level, you improve in your ability to push your opponent away or to the ground",
-                "When performing a shove attack you can spend a Ki point to have advantage on the attack. Your body conditioning training and meditation on the 70 winning strategies of Sumo, has made you more Adept at commanding the battle.",
-                "In addition, your distance to push an enemy increases to 10 ft:"
-                
-            ]
-        },
-        {
-            "name": "Sumo Stomp",
-            "source": "HB",
-            "className": "Monk",
-            "classSource": "PHB",
-            "page": 1,
-            "subclassShortName": "WOTS",
-            "subclassSource": "HB",
-            "level": 11,
-            "header": 2,
-            "consumes": {
-                "name": "Ki",
-                "amount": 2
-            },
-            "entries": [
-                "At 11th level, you gain the ability to shake the earth beneath your feet. So long as you are not standing atop difficult terrain, as an action you can spend 2 Ki points to shake the earth. Those within 15 ft of you must make a Dexterity saving throw against your DC or take 2d6 bludgeoning damage and fall prone, if they succeed, they take half as much and don't fall prone. You can spend additional Ki to increase the damage by 1d6 for every Ki point added to a maximum of half your monk level."
-            ]
-        },
-        {
-            "name": "Yokozuna",
-            "source": "HB",
-            "className": "Monk",
-            "classSource": "PHB",
-            "page": 1,
-            "subclassShortName": "WOTS",
-            "subclassSource": "HB",
-            "level": 17,
-            "header": 2,
-            "consumes": {
-                "name": "Ki",
-                "amount": 3
-            },
-            "entries": [
-                "As of level 17, you have dedicated yourself to the way of Sumo and have mastered its art and have become the highest rank of sumo Yokozuna, in which you learn to utilize your immovable nature to weather harm. As a bonus action you can use 3 Ki points to give yourself 2d6 temporary hitpoints that last for a minute, at the start of subsequent turns you can reroll your temporary hitpoints until the minute is up or is dismissed."
-            ]
+          "name": "Improved Shove",
+          "entries": [
+            "Starting at 6th level, you improve in your ability to push your opponent away or to the ground.",
+            "When performing a shove attack you can spend a Ki point to have advantage on the attack.",
+            "In addition, your distance to push an enemy increases to 10 ft."
+          ],
+          "consumes": {
+            "name": "Ki",
+            "amount": 1
+          }
         }
-    ]
-}
+      ],
+      "11": [
+        {
+          "name": "Sumo Stomp",
+          "entries": [
+            "At 11th level, as an action you can spend 2 Ki points to shake the earth. Those within 15 ft must make a Dexterity saving throw against your Ki save DC or take 2d6 bludgeoning damage and fall prone. On a success, they take half damage and remain standing.",
+            "You can spend additional Ki to increase the damage by 1d6 per point, up to a maximum of half your monk level."
+          ],
+          "consumes": {
+            "name": "Ki",
+            "amount": 2
+          }
+        }
+      ],
+      "17": [
+        {
+          "name": "Yokozuna",
+          "entries": [
+            "At 17th level, as a bonus action you can use 3 Ki points to gain 2d6 temporary hit points that last for 1 minute. At the start of each turn, you may reroll the temporary hit points, replacing the current amount if it's higher.",
+            "You may dismiss this effect at any time."
+          ],
+          "consumes": {
+            "name": "Ki",
+            "amount": 3
+          }
+        }
+      ]
+    }
+  }
+]

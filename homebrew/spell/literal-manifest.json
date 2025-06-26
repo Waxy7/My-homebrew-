@@ -1,40 +1,47 @@
-[
-    {
-        "name": "Literal Manifest",
-        "level": 0,
-        "school": "C",
-        "source": "HB",
-        "time": [
-            {
-                "number": 1,
-                "unit": "action"
-            }
-        ],
-        "range": {
-            "type": "point",
-            "distance": {
-                "type": "self"
-            }
-        },
-        "components": {
-            "s": true
-        },
-        "duration": [
-            {
-                "type": "instant"
-            }
-        ],
-        "entries": [
-            "While touching a blank sheet of paper, you take a quick observation of everything within your field of vision. A complete documentary of what you see is copied onto the paper in expoentrum -arcane ink- written in text that may be too small to read. When another creature touches the sheet of paper, they can use their action to focus on it and visibly witness a perfect visual reproduction of what you could see, which blinds them to everything else for as long as they remain within it."
-        ],
-        "classes": {
-            "fromClassList": [
-                {
-                    "name": "Wizard",
-                    "source": "PHB"
-                }
-                
-            ]
-        }
-    }
-]
+{
+	"name": "Literal Manifest",
+	"source": "LiteralManifest",
+	"page": 0,
+	"level": 0,
+	"school": "I",
+	"time": [
+		{
+			"number": 1,
+			"unit": "action"
+		}
+	],
+	"range": {
+		"type": "point",
+		"distance": {
+			"type": "self"
+		}
+	},
+	"components": {
+		"s": true
+	},
+	"duration": [
+		{
+			"type": "instant"
+		}
+	],
+	"entries": [
+		"While touching a blank sheet of paper, you take a quick observation of everything within your field of vision. A complete documentary of what you see is copied onto the paper in expoentrum -arcane ink- written in text that may be too small to read. When another creature touches the sheet of paper, they can use their action to focus on it and visibly witness a perfect visual reproduction of what you could see, which blinds them to everything else for as long as they remain within it."
+	],
+
+	"miscTags": [
+		"SGT",
+		"OBJ"
+	],
+	"classes": {
+		"fromClassList": [
+			{
+				"name": "Wizard",
+				"source": "PHB"
+			},
+			{
+				"name": "Inscriptor",
+				"source": "TCE"
+			}
+		]
+	}
+}
